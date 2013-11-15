@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contenedor{
+	width:1000px;
+	height:700px;
+	border:1px #000 solid;
+	margin:auto;
+	background:#FFF
+	}
+	
+.cabecera{
+	width:1000px;
+	height:103px;
+	margin-bottom:10px;
+	float:left;
+	background-image:url(../images/cabeza.jpg);
+	}
+
+.cuerpo{
+	width:1000px;
+	height:500px;
+	margin-bottom:10px;
+	float:left;
+	background:#999;
+	}
+
+.menu{
+	width:988px;
+	height:20px;
+	padding:5px;
+	margin-bottom:10px;
+	background:#06F;
+	border:1px #000 solid;
+	float:left;
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	}
+
+.frame1{
+	width:988px;
+	height:450px;
+	padding:5px;
+	margin-bottom:10px;
+	background:#666;
+	border:1px #000 solid;
+	float:left;
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	}
+
+.div_principal{
+	width:978px;
+	height:440px;
+	padding:5px;
+	background:#FFF;
+	}
+
+.pie_pagina{
+	width:1000px;
+	height:80px;
+	float:left;
+	background:#06F}
