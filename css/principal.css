@@ -9,13 +9,6 @@
 	background:#FFF
 	}
 	
-.cabecera{
-	width:1000px;
-	height:103px;
-	margin-bottom:10px;
-	float:left;
-	background-image:url(../images/cabeza.jpg);
-	}
 
 .cuerpo{
 	width:1000px;
@@ -63,3 +56,4 @@
 	height:80px;
 	float:left;
 	background:#06F}
+

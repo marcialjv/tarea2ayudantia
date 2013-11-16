@@ -5,6 +5,9 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>sistema de administracion de turnos</title>
   <link href="css/principal.css" rel="stylesheet" type="text/css" />
+
+
+  <!--  especificacion de comportamiento de hipertexto   -->
   <style type="text/css">
   a:link {
 	color: #FFF;
@@ -27,16 +30,29 @@ a:active {
     
   <body>
   <div class="contenedor">
-    <div class="cabecera"></div>
+
+    <?php /****************************inicio php***************************/
+    /*crea una arreglo con las imagenes aleatorias con su ubicación*/
+    $imagenes[0]='images/im1.jpg';
+    $imagenes[1]='images/im2.jpg';
+    $imagenes[2]='images/im3.jpg';
+    $imagenes[3]='images/im4.jpg';
+    $imagenes[4]='images/im5.jpg';
+    /* genera un número aleatorio, en este caso del 0 al 4 (porque estaba aburrido al hacerlo) */
+    $i=rand(0,4);
+    /* se muestra la imagen aleatoria */
+    print '<img src="'.$imagenes[$i].'">';
+    /***********************************fin php****************************/
+    ?>
+
+
     <div class="cuerpo">
       <div class="menu">
         <table width="988">
           <tr valign="middle">
             <td width="193" height="16" align="center"><a href="welcome.html" target="principal">INICIO</a></td>
-            <td width="193" height="16" align="center"><div align="center">HISTORIAL</div></td>
-            <td width="193" height="16" align="center"> <div align="center"><a href="turnos.html" target="principal">TURNOS</a></div></td>
-            <td width="193" height="16" align="center"><div align="center">MODIFICAR</div></td>
-            <td width="192" height="16" align="center"><div align="center">SALIR</div></td>
+            <td width="193" height="16" align="center"><a href="marcial.html" target="principal">MARCIAL JARA</a></td>
+            <td width="193" height="16" align="center"><a href="marco.html" target="principal">MARCO ARRATIA</a></td>
           </tr>
         </table>
       </div>
